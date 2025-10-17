@@ -45,19 +45,22 @@ export default function App() {
             objectFit: 'contain'
           }}
         />
-        <div className="d-flex justify-content-center align-items-center gap-3">
+        <div className="d-flex justify-content-center align-items-center gap-3 flex-wrap">
           <YinYang size={50} />
-          <h1 className="fs-2 fw-bold">Escuela Wudang SanFeng Chile</h1>
+          <h1 className="fs-2 fw-bold">Escuela Wudang SanFeng GongFu Chile</h1>
           <YinYang size={50} />
         </div>
       </div>
 
-      <div className="row g-4 px-3">
+      <div className="row g-4 px-3 text-center">
         {/* Columna 1 - Comunidad */}
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
-            <div className="card-body text-center">
-              <h2 className="fs-3 fw-semibold mb-3 mt-2">◆ Ingreso a la Comunidad, Clases y Actividades ◆</h2>
+            <div className="card-body">
+              <h2 className="fs-3 fw-semibold mb-3 mt-2 w-100 text-center px-2">
+                ◆ Ingreso a la Comunidad, Clases y Actividades ◆
+              </h2>
+
               <p><strong>Ingreso a la Comunidad</strong><br />Aporte consciente desde $1.000</p>
               <ul className="text-start list-unstyled">
                 <li>• Acceso a la comunidad en Telegram</li>
@@ -88,14 +91,18 @@ export default function App() {
         {/* Columna 2 - Planes de Entrenamiento */}
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
-            <div className="card-body text-center">
-              <h3 className="fs-4 fw-semibold mb-3 mt-2">◆ Inscripción en la Escuela ◆</h3>
-              <h2 className="fs-4 fw-semibold mb-4">◆ PLANES DE ENTRENAMIENTO REGULAR ◆</h2>
+            <div className="card-body">
+              <h3 className="fs-4 fw-semibold mb-3 mt-2 w-100 text-center px-2">
+                ◆ Inscripción en la Escuela ◆
+              </h3>
+              <h2 className="fs-4 fw-semibold mb-4 w-100 text-center px-2">
+                ◆ PLANES DE ENTRENAMIENTO REGULAR ◆
+              </h2>
               <p className="fst-italic mb-3">(Modalidad de Suscripción Mensual)</p>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan de Entrada — $10.000</p>
               <ul className="text-start list-unstyled mb-3">
-                <li>• Acceso a 1 clase </li>
+                <li>• Acceso a 1 clase por mes</li>
                 <li>• Acceso a plataforma educativa</li>
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Clases extra a $5.000</li>
@@ -108,7 +115,7 @@ export default function App() {
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso al Grupo de Estudio Avanzado (+ $5.000)</li>
-                <li>• Clases extra a $2.500 c/u</li>
+                <li>• Clases extra a $2.500</li>
               </ul>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Completo — $40.000</p>
@@ -127,8 +134,10 @@ export default function App() {
         {/* Columna 3 - Servicio */}
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
-            <div className="card-body text-center">
-              <h2 className="fs-3 fw-semibold mb-4 mt-2">◆ Entrevista de entrenamiento personal y orientación ◆</h2>
+            <div className="card-body">
+              <h2 className="fs-3 fw-semibold mb-4 mt-2 w-100 text-center px-2">
+                ◆ Entrevista de entrenamiento personal y orientación ◆
+              </h2>
               <p><strong>Valor por entrevista (para inscritos en la escuela):</strong> $10.000</p>
               <p><strong>Valor independiente:</strong> $15.000</p>
               <p><strong>Duración de la entrevista:</strong> 1 hora</p>
