@@ -85,10 +85,9 @@ export default function App() {
                 <p>
                   <strong>Actividad — Recorrido de 5 semanas.</strong><br /><br />
                   • Derecho a participar de una clase 
-                  <p>• Acceso a recorrido por textos que introducen en la lógica del combate interior,
-                  estableciendo bases del recorrido hacia la realización del Guerrero Interior</p>  
+                  <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>  
                   
-                  •(Puede participar de clases extras en el mes del recorrido por $2.500 cada una)
+                  • (Puede participar de clases extras en el mes del recorrido por $2.500 cada una)
                 </p>
                 <p className="mt-2 fst-italic">
                   NOTA: Esta introducción permite integrarse, al finalizar el recorrido, en la actividad del grupo de estudio avanzado de Psicoanálisis, Tao, Medicina China y Tai Chi.
@@ -119,7 +118,7 @@ export default function App() {
                 <li>• Acceso hasta 4 clases por mes</li>
                 <li>• Acceso a plataforma educativa</li>
                 <li>• Acceso a la comunidad en Telegram</li>
-                <li>• Actividades recreativas en entornos Naturales</li>
+                <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso al Grupo de Estudio Avanzado (+ $5.000)</li>
                 <li>• Clases extra a $2.500</li>
               </ul>
@@ -129,7 +128,7 @@ export default function App() {
                 <li>• Acceso hasta 11 clases formativas por mes</li>
                 <li>• Acceso a plataforma educativa</li>
                 <li>• Acceso a la comunidad en Telegram</li>
-                <li>• Actividades recreativas en entornos Naturales</li>
+                <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso a transmisiones online de las clases y sus grabaciones</li>
                 <li>• Acceso al Grupo de Estudios Avanzado: Psicoanálisis, Tao, Medicina China, Tai Chi</li>
               </ul>
@@ -160,7 +159,7 @@ export default function App() {
               <h5 className="mt-4 mb-3">Temas principales a abordar en la continuidad del entrenamiento</h5>
               <ul className="text-start list-unstyled" style={{ lineHeight: '1.8em' }}>
                 <li>• Uso de herramientas de Psicoanálisis para exploración y comprensión de la propia estructura psíquica</li>
-                <li>• Uso de herramientas de Magia para la creación de hábitos</li>
+                <li>• Uso de herramientas de Magia Metódica para la creación de hábitos</li>
                 <li>• Práctica y comprensión de la Meditación</li>
               </ul>
             </div>
