@@ -1,5 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// ✅ Carga adaptable del logo (funciona en local y GitHub Pages)
+const logoPath = `${import.meta.env.BASE_URL}logowudang.png`;
+
 function YinYang({ size = 64 }) {
   return (
     <svg
@@ -31,12 +34,21 @@ export default function App() {
       }}
     >
       <div className="text-center mb-5">
+        {/* 🐢 Logo oficial Wudang Sanfeng Pai Chile */}
+        <img
+          src={logoPath}
+          alt="Logo Wudang Sanfeng Pai Chile"
+          style={{
+            width: '160px',
+            height: 'auto',
+            marginBottom: '20px',
+            objectFit: 'contain'
+          }}
+        />
         <div className="d-flex justify-content-center align-items-center gap-3">
           <YinYang size={50} />
           <h1 className="fs-2 fw-bold">Escuela Wudang SanFeng GongFu Chile</h1>
-          
           <YinYang size={50} />
-          
         </div>
       </div>
 
@@ -45,53 +57,29 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body text-center">
-              <h2 className="fs-4"> Ingreso a la </h2>
-              <h3 className="fs-5 mb-3">Comunidad, Clases y Actividades </h3>
-              <p><strong>➡️Ingreso a la Comunidad</strong><br />Aporte consciente desde $1.000</p>
+              <h2 className="fs-3 fw-semibold mb-3">Ingreso a la Comunidad, Clases y Actividades</h2>
+              <p><strong>Ingreso a la Comunidad</strong><br />Aporte consciente desde $1.000</p>
               <ul className="text-start list-unstyled">
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Acceso a tutoriales</li>
               </ul>
               <p className="fst-italic">⚠️ No incluye clases presenciales, transmisiones de clases ni grabaciones de clases.</p>
-              <div className="my-4"></div>
 
               <div className="mt-4 pt-3 border-top border-light">
-                 
-                 <p><strong>Clases Unitarias </strong></p>
-  
-              <p><strong>➡️ Formativa:</strong> $6.000</p>
-              <p> 2 Horas en Horarios de entrenamiento Regular</p>
-              <p><strong> ➡️ Recreativa:</strong> $3.000<br /></p>
-              <p>1 hora (fines de semana) </p>
-
-                
+                <h4 className="fs-5 fw-semibold">Clases Unitarias</h4>
+                <p><strong>➡️ Formativa:</strong> $6.000</p>
+                <p>2 Horas en Horarios de entrenamiento Regular</p>
+                <p><strong>➡️ Recreativa:</strong> $3.000</p>
+                <p>1 hora (fines de semana)</p>
               </div>
 
-
-
-
-
-
-
-
-
-
-
-              
-              
               <div className="mt-4 pt-3 border-top border-light">
-                <h4 className="fs-6 mt-3"><strong> Introducción al Combate Interior </strong></h4>
+                <h4 className="fs-5 fw-semibold">Introducción al Combate Interior</h4>
                 <p><strong>Valor:</strong> $15.000</p>
-                <p>
-                  <strong>Actividad — Recorrido de 5 semanas.</strong><br /><br />
-                  • Derecho a participar de una clase 
-                  <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>  
-                  
-                  • (Puede participar de clases extras en el mes del recorrido por $2.500 cada una)
-                </p>
-                <p className="mt-2 fst-italic">
-                  NOTA: Esta introducción permite integrarse, al finalizar el recorrido, en la actividad del grupo de estudio avanzado de Psicoanálisis, Tao, Medicina China y Tai Chi.
-                </p>
+                <p><strong>Actividad — Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
+                <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>
+                <p>• (Puede participar de clases extras en el mes del recorrido por $2.500 cada una)</p>
+                <p className="fst-italic">NOTA: Esta introducción permite integrarse, al finalizar el recorrido, en la actividad del grupo de estudio avanzado de Psicoanálisis, Tao, Medicina China y Tai Chi.</p>
               </div>
             </div>
           </div>
@@ -101,11 +89,11 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body text-center">
-              <h3 className="fs-6 mb-2 text-uppercase text-light-50">Inscripción en la Escuela</h3>
-              <h2 className="fs-4"> PLANES DE ENTRENAMIENTO REGULAR</h2>
+              <h3 className="fs-4 fw-semibold mb-3">Inscripción en la Escuela</h3>
+              <h2 className="fs-4 fw-semibold mb-4">PLANES DE ENTRENAMIENTO REGULAR</h2>
               <p className="fst-italic">(Modalidad de Suscripción Mensual)</p>
 
-              <p><strong>➡️ Plan de Entrada — $10.000</strong></p>
+              <p className="fs-5 fw-semibold">➡️ Plan de Entrada — $10.000</p>
               <ul className="text-start list-unstyled">
                 <li>• Acceso a 1 clase por mes</li>
                 <li>• Acceso a plataforma educativa</li>
@@ -113,7 +101,7 @@ export default function App() {
                 <li>• Clases extra a $5.000</li>
               </ul>
 
-              <p><strong>➡️ Plan Básico — $25.000</strong></p>
+              <p className="fs-5 fw-semibold">➡️ Plan Básico — $25.000</p>
               <ul className="text-start list-unstyled">
                 <li>• Acceso hasta 4 clases por mes</li>
                 <li>• Acceso a plataforma educativa</li>
@@ -123,7 +111,7 @@ export default function App() {
                 <li>• Clases extra a $2.500</li>
               </ul>
 
-              <p><strong>➡️ Plan Completo — $40.000</strong></p>
+              <p className="fs-5 fw-semibold">➡️ Plan Completo — $40.000</p>
               <ul className="text-start list-unstyled">
                 <li>• Acceso hasta 11 clases formativas por mes</li>
                 <li>• Acceso a plataforma educativa</li>
@@ -140,8 +128,7 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body text-center">
-              <h2 className="fs-4"> Servicio Personalizado — Entrevista </h2>
-              <h3 className="fs-6 mb-3"> Entrenamiento personalizado y Orientación</h3>
+              <h2 className="fs-3 fw-semibold mb-3">Entrevista de entrenamiento personal y orientación</h2>
               <p><strong>Valor por entrevista (para inscritos en la escuela):</strong> $10.000</p>
               <p><strong>Valor independiente:</strong> $15.000</p>
               <p><strong>Duración de la entrevista:</strong> 1 hora</p>
@@ -153,7 +140,6 @@ export default function App() {
                 <li>• Entregar herramientas filosóficas, teóricas y prácticas</li>
                 <li>• Definir rutinas de entrenamiento</li>
                 <li>• Detectar bloqueos mentales </li>
-                
               </ul>
 
               <h5 className="mt-4 mb-3">Temas principales a abordar en la continuidad del entrenamiento</h5>
