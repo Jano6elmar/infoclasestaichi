@@ -33,8 +33,8 @@ export default function App() {
         justifyContent: 'center'
       }}
     >
+      {/* 🐢 Logo */}
       <div className="text-center mb-5">
-        {/* 🐢 Logo oficial Wudang Sanfeng Pai Chile */}
         <img
           src={logoPath}
           alt="Logo Wudang Sanfeng Pai Chile"
@@ -45,10 +45,32 @@ export default function App() {
             objectFit: 'contain'
           }}
         />
-        <div className="d-flex justify-content-center align-items-center gap-3 flex-wrap">
-          <YinYang size={50} />
-          <h1 className="fs-2 fw-bold">Escuela Wudang SanFeng GongFu Chile</h1>
-          <YinYang size={50} />
+
+        {/* ✅ Título con Yin-Yang perfectamente alineados a los costados */}
+        <div
+          className="d-flex justify-content-center align-items-center text-center"
+          style={{
+            gap: '15px',
+            flexWrap: 'nowrap',
+          }}
+        >
+          <div className="yin-container">
+            <YinYang size={40} />
+          </div>
+          <h1
+            className="fs-2 fw-bold m-0"
+            style={{
+              textAlign: 'center',
+              lineHeight: '1.2em',
+              whiteSpace: 'normal',
+              flex: '0 1 auto',
+            }}
+          >
+            Escuela Wudang SanFeng GongFu Chile
+          </h1>
+          <div className="yin-container">
+            <YinYang size={40} />
+          </div>
         </div>
       </div>
 
@@ -69,7 +91,7 @@ export default function App() {
               <p className="fst-italic">⚠️ No incluye clases presenciales, transmisiones de clases ni grabaciones de clases.</p>
 
               <div className="mt-4 pt-2 border-top border-light">
-                <h4 className="fs-5 fw-semibold mt-3">Clases Unitarias</h4>
+                <h4 className="fs-5 fw-semibold">Clases Unitarias</h4>
                 <p><strong>➡️ Formativa:</strong> $6.000</p>
                 <p>2 Horas en Horarios de entrenamiento Regular</p>
                 <p><strong>➡️ Recreativa:</strong> $3.000</p>
@@ -77,7 +99,7 @@ export default function App() {
               </div>
 
               <div className="mt-4 pt-2 border-top border-light">
-                <h4 className="fs-5 fw-semibold mt-3">Introducción al Combate Interior</h4>
+                <h4 className="fs-5 fw-semibold">Introducción al Combate Interior</h4>
                 <p><strong>Valor:</strong> $15.000</p>
                 <p><strong>Actividad — Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
                 <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>
@@ -88,7 +110,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* Columna 2 - Planes de Entrenamiento */}
+        {/* Columna 2 - Planes */}
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
@@ -105,7 +127,7 @@ export default function App() {
                 <li>• Acceso a 1 clase por mes</li>
                 <li>• Acceso a plataforma educativa</li>
                 <li>• Acceso a la comunidad en Telegram</li>
-                <li>• Clases extra a $5.000</li>
+                <li>• Clases extra a $5.000 c/u</li>
               </ul>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Básico — $25.000</p>
@@ -115,7 +137,7 @@ export default function App() {
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso al Grupo de Estudio Avanzado (+ $5.000)</li>
-                <li>• Clases extra a $2.500</li>
+                <li>• Clases extra a $2.500 c/u</li>
               </ul>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Completo — $40.000</p>
@@ -161,6 +183,18 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      {/* 📱 Ajuste responsivo directo */}
+      <style>
+        {`
+          @media (max-width: 576px) {
+            .yin-container svg {
+              width: 30px !important;
+              height: 30px !important;
+            }
+          }
+        `}
+      </style>
     </div>
   );
 }
