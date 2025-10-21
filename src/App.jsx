@@ -86,9 +86,9 @@ export default function App() {
               </h2>
 
               <h4 className="fs-5 fw-semibold mb-3">Clases Unitarias<br/> Tai Chi/ Chi Kung/ Kung Fu</h4>
-              <p><strong>➡️ Formativa (Grupal):</strong> $6.000 — 2 Horas (en Horarios de entrenamiento Regular)</p>
-              <p><strong>➡️ Recreativa (Grupal):</strong> $3.000 — 1 hora (fines de semana)</p>
-              <p><strong>➡️ Clase Formativa o Entrenamiento Personal:</strong> $10.000 — 1 hora (horario a convenir)</p>
+              <p><strong>➡️ Formativa (Grupal):</strong> 2 Horas (en Horarios de entrenamiento Regular)<br/>Valor: $6.000</p>
+              <p><strong>➡️ Recreativa (Grupal):</strong> 1 hora (fines de semana)<br/>Valor: $3.000</p>
+              <p><strong>➡️ Clase Formativa o Entrenamiento Personal:</strong> 1 hora (horario a convenir)<br/>Valor: $10.000</p>
 
               <div className="mt-1 pt-4 pb-1 border-top border-light">
                 <h4 className="fs-5 fw-semibold">Unirse a la Comunidad de Aprendizaje</h4>
