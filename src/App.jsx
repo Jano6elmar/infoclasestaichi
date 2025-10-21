@@ -85,7 +85,7 @@ export default function App() {
                 Clases, Comunidad y Actividades
               </h2>
 
-              <h4 className="fs-5 fw-semibold mb-3">Clases Unitarias</h4>
+              <h4 className="fs-5 fw-semibold mb-3">Clases Unitarias<br/> Tai Chi/ Chi Kung/ Kung Fu</h4>
               <p><strong>➡️ Formativa (Grupal):</strong> $6.000 — 2 Horas (en Horarios de entrenamiento Regular)</p>
               <p><strong>➡️ Recreativa (Grupal):</strong> $3.000 — 1 hora (fines de semana)</p>
               <p><strong>➡️ Clase Formativa o Entrenamiento Personal:</strong> $10.000 — 1 hora (horario a convenir)</p>
@@ -102,11 +102,16 @@ export default function App() {
 
               <div className="mt-4 pt-2 border-top border-light">
                 <h4 className="fs-5 fw-semibold">Actividad Introductoria</h4>
-                <p className="fw-semibold">Introducción a las Artes Internas de Wudang y al Combate Interior</p>
-                <p><strong>Valor:</strong> $15.000</p>
-                <p><strong> Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
-                <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>
+                <p className="fw-semibold">"Artes Internas de Wudang y Combate Interior"</p>
+
+                <p><strong> Recorrido de 5 semanas.</strong><br /><br />• Derecho a participar de una clase formativa</p>
+
+                <p>• Acceso a grupo de lectura (Introducción en Filosofía y Teoría)</p>
                 <p>• (Puede participar de clases extras en el mes del recorrido por $2.500 cada una)</p>
+                <p><strong>Valor Actividad:</strong> $15.000</p>
+                <p>(Consultar por próximas fechas de inicio)</p>
+
+
                 <p className="fst-italic">NOTA: Esta introducción permite integrarse, al finalizar el recorrido, en la actividad del grupo de estudio avanzado de Psicoanálisis, Tao, Medicina China y Tai Chi.</p>
               </div>
             </div>
@@ -154,7 +159,11 @@ export default function App() {
                 <li>• Acceso a transmisiones online de las clases y sus grabaciones</li>
                 <li>• Acceso al Grupo de Estudios Avanzado: Psicoanálisis, Tao, Medicina China, Tai Chi</li>
               </ul>
+                <p className="fst-italic">NOTA: Las clases comienzan con una hora de Chi Kung Médico y la siguiente hora de Tai Chi Chuan, para conocer más 
+                  acerca de estas prácticas o entender sus diferencias consulte al Profesor encargado o visite <a href='https://www.wudangsanfeng.cl/'> www.wudangsanfeng.cl </a> </p>
+
             </div>
+            
           </div>
         </div>
 
@@ -173,18 +182,20 @@ export default function App() {
               <hr className="plan-divider" />
               <h5 className="mt-4 mb-2">Objetivos de la entrevista</h5>
               <ul className="text-start list-unstyled mb-3">
-                <li>• Definir deseo o meta en la práctica</li>
-                <li>• Entregar herramientas filosóficas, teóricas y prácticas</li>
+                <li>• Definir Resultado, Deseo o Meta</li>
+                <li>• Transmisión de herramientas filosóficas, teóricas y prácticas</li>
                 <li>• Definir rutinas de entrenamiento</li>
-                <li>• Detectar bloqueos mentales </li>
+                <li>• Detectar límites y generar propuesta para atravesarlos </li>
               </ul>
 
               <hr className="plan-divider" />
               <h5 className="mt-4 mb-2">Temas principales a abordar en la continuidad del entrenamiento</h5>
               <ul className="text-start list-unstyled" style={{ lineHeight: '1.8em' }}>
-                <li>• Uso de herramientas de Psicoanálisis para exploración y comprensión de la propia estructura psíquica</li>
+                <li>• Uso de herramientas Metódicas de Psicoanálisis para exploración y comprensión de la propia estructura psíquica</li>
                 <li>• Uso de herramientas de Magia Metódica para la creación de hábitos</li>
                 <li>• Práctica y comprensión de la Meditación</li>
+                <li>• Modos de entrenamiento y finalidad de la práctica</li>
+
               </ul>
             </div>
           </div>
