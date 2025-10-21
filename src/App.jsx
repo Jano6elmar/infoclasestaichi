@@ -66,12 +66,14 @@ export default function App() {
               flex: '0 1 auto',
             }}
           >
-            Escuela Wudang SanFeng GongFu Chile
+            Escuela "Wudang SanFeng Pai Chile"
           </h1>
           <div className="yin-container">
             <YinYang size={40} />
           </div>
         </div>
+        <br />
+        <h3 className="sede-title">Sede Concepción</h3>
       </div>
 
       <div className="row g-4 px-3 text-center">
@@ -79,29 +81,31 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
-              <h2 className="fs-3 fw-semibold mb-3 mt-2 w-100 text-center px-2">
-                ◆ Ingreso a la Comunidad, Clases y Actividades ◆
+              <h2 className="fs-3 fw-semibold mb-3 mt-2 w-100 text-center px-2 block-title-header">
+                Clases, Comunidad y Actividades
               </h2>
 
-              <p><strong>Ingreso a la Comunidad</strong><br />Aporte consciente desde $1.000</p>
-              <ul className="text-start list-unstyled">
-                <li>• Acceso a la comunidad en Telegram</li>
-                <li>• Acceso a tutoriales</li>
-              </ul>
-              <p className="fst-italic">⚠️ No incluye clases presenciales, transmisiones de clases ni grabaciones de clases.</p>
+              <h4 className="fs-5 fw-semibold mb-3">Clases Unitarias</h4>
+              <p><strong>➡️ Formativa:</strong> $6.000</p>
+              <p>2 Horas (en Horarios de entrenamiento Regular)</p>
+              <p><strong>➡️ Recreativa:</strong> $3.000</p>
+              <p>1 hora (fines de semana)</p>
 
               <div className="mt-4 pt-2 border-top border-light">
-                <h4 className="fs-5 fw-semibold">Clases Unitarias</h4>
-                <p><strong>➡️ Formativa:</strong> $6.000</p>
-                <p>2 Horas en Horarios de entrenamiento Regular</p>
-                <p><strong>➡️ Recreativa:</strong> $3.000</p>
-                <p>1 hora (fines de semana)</p>
+                <h4 className="fs-5 fw-semibold">Unirse a la Comunidad de Aprendizaje</h4>
+                <p>Aporte consciente mensual desde $1.000</p>
+                <ul className="text-start list-unstyled">
+                  <li>• Acceso a la comunidad en Telegram</li>
+                  <li>• Acceso a tutoriales</li>
+                </ul>
+                <p className="fst-italic">⚠️ No incluye clases presenciales, transmisiones de clases ni grabaciones de clases.</p>
               </div>
 
               <div className="mt-4 pt-2 border-top border-light">
-                <h4 className="fs-5 fw-semibold">Introducción al Combate Interior</h4>
+                <h4 className="fs-5 fw-semibold">Actividad Introductoria</h4>
+                <p className="fw-semibold">Introducción al Combate Interior</p>
                 <p><strong>Valor:</strong> $15.000</p>
-                <p><strong>Actividad — Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
+                <p><strong> Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
                 <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>
                 <p>• (Puede participar de clases extras en el mes del recorrido por $2.500 cada una)</p>
                 <p className="fst-italic">NOTA: Esta introducción permite integrarse, al finalizar el recorrido, en la actividad del grupo de estudio avanzado de Psicoanálisis, Tao, Medicina China y Tai Chi.</p>
@@ -114,13 +118,13 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
-              <h3 className="fs-4 fw-semibold mb-3 mt-2 w-100 text-center px-2">
-                ◆ Inscripción en la Escuela ◆
+              <h3 className="fs-4 fw-semibold mb-3 mt-2 w-100 text-center px-2 block-title-header">
+                Inscripción en la Escuela
               </h3>
-              <h2 className="fs-4 fw-semibold mb-4 w-100 text-center px-2">
-                ◆ PLANES DE ENTRENAMIENTO REGULAR ◆
+              <h2 className="fs-4 fw-semibold mb-4 w-100 text-center px-2 block-title-header">
+                PLANES DE ENTRENAMIENTO REGULAR
               </h2>
-              <p className="fst-italic mb-3">(Modalidad de Suscripción Mensual)</p>
+              <p className="fst-italic mb-3">(Modalidad: Suscripción Mensual)</p>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan de Entrada — $10.000</p>
               <ul className="text-start list-unstyled mb-3">
@@ -157,8 +161,8 @@ export default function App() {
         <div className="col-12 col-md-4">
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
-              <h2 className="fs-3 fw-semibold mb-4 mt-2 w-100 text-center px-2">
-                ◆ Entrevista de entrenamiento personal y orientación ◆
+              <h2 className="fs-3 fw-semibold mb-4 mt-2 w-100 text-center px-2 block-title-header">
+                Entrevista de entrenamiento y orientación individual
               </h2>
               <p><strong>Valor por entrevista (para inscritos en la escuela):</strong> $10.000</p>
               <p><strong>Valor independiente:</strong> $15.000</p>
@@ -184,13 +188,43 @@ export default function App() {
         </div>
       </div>
 
-      {/* 📱 Ajuste responsivo directo */}
+      {/* 📱 Ajuste responsivo directo y estilos locales */}
       <style>
         {`
+          .sede-title {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: #f8fafc;
+            display: inline-block;
+            padding-bottom: 6px;
+            margin-top: 0.5rem;
+            border-bottom: 2px solid rgba(255,255,255,0.12);
+          }
+
+          /* Títulos con línea divisoria */
+          .block-title-header {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 12px;
+            line-height: 1.4;
+          }
+
           @media (max-width: 576px) {
             .yin-container svg {
               width: 30px !important;
               height: 30px !important;
+            }
+
+            .sede-title {
+              font-size: 1rem;
+              letter-spacing: 0.6px;
+            }
+
+            .block-title-header {
+              font-size: 0.95rem;
+              padding-bottom: 10px;
             }
           }
         `}
