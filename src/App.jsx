@@ -86,12 +86,11 @@ export default function App() {
               </h2>
 
               <h4 className="fs-5 fw-semibold mb-3">Clases Unitarias</h4>
-              <p><strong>➡️ Formativa:</strong> $6.000</p>
-              <p>2 Horas (en Horarios de entrenamiento Regular)</p>
-              <p><strong>➡️ Recreativa:</strong> $3.000</p>
-              <p>1 hora (fines de semana)</p>
+              <p><strong>➡️ Formativa (Grupal):</strong> $6.000 — 2 Horas (en Horarios de entrenamiento Regular)</p>
+              <p><strong>➡️ Recreativa (Grupal):</strong> $3.000 — 1 hora (fines de semana)</p>
+              <p><strong>➡️ Clase Formativa o Entrenamiento Personal:</strong> $10.000 — 1 hora (horario a convenir)</p>
 
-              <div className="mt-4 pt-2 border-top border-light">
+              <div className="mt-1 pt-4 pb-1 border-top border-light">
                 <h4 className="fs-5 fw-semibold">Unirse a la Comunidad de Aprendizaje</h4>
                 <p>Aporte consciente mensual desde $1.000</p>
                 <ul className="text-start list-unstyled">
@@ -103,7 +102,7 @@ export default function App() {
 
               <div className="mt-4 pt-2 border-top border-light">
                 <h4 className="fs-5 fw-semibold">Actividad Introductoria</h4>
-                <p className="fw-semibold">Introducción al Combate Interior</p>
+                <p className="fw-semibold">Introducción a las Artes Internas de Wudang y al Combate Interior</p>
                 <p><strong>Valor:</strong> $15.000</p>
                 <p><strong> Recorrido de 5 semanas.</strong><br />• Derecho a participar de una clase formativa</p>
                 <p>• Acceso a grupo de lectura para introducirse en la lógica del combate interior</p>
@@ -133,6 +132,7 @@ export default function App() {
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Clases extra a $5.000 c/u</li>
               </ul>
+              <hr className="plan-divider" />
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Básico — $25.000</p>
               <ul className="text-start list-unstyled mb-3">
@@ -143,6 +143,7 @@ export default function App() {
                 <li>• Acceso al Grupo de Estudio Avanzado (+ $5.000)</li>
                 <li>• Clases extra a $2.500 c/u</li>
               </ul>
+              <hr className="plan-divider" />
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Completo — $40.000</p>
               <ul className="text-start list-unstyled">
@@ -167,8 +168,9 @@ export default function App() {
               <p><strong>Valor por entrevista (para inscritos en la escuela):</strong> $10.000</p>
               <p><strong>Valor independiente:</strong> $15.000</p>
               <p><strong>Duración de la entrevista:</strong> 1 hora</p>
-              <p><strong>Acceso adicional:</strong> incluye 1 clase de Tai Chi dentro del mes.<br />Puede asistir a clases extras por $2.500 cada una.</p>
+              <p><strong>Acceso adicional:</strong> incluye 1 clase de Tai Chi en del mes que tome la entrevista.<br />Puede asistir a clases extras por $2.500 cada una.</p>
 
+              <hr className="plan-divider" />
               <h5 className="mt-4 mb-2">Objetivos de la entrevista</h5>
               <ul className="text-start list-unstyled mb-3">
                 <li>• Definir deseo o meta en la práctica</li>
@@ -177,6 +179,7 @@ export default function App() {
                 <li>• Detectar bloqueos mentales </li>
               </ul>
 
+              <hr className="plan-divider" />
               <h5 className="mt-4 mb-2">Temas principales a abordar en la continuidad del entrenamiento</h5>
               <ul className="text-start list-unstyled" style={{ lineHeight: '1.8em' }}>
                 <li>• Uso de herramientas de Psicoanálisis para exploración y comprensión de la propia estructura psíquica</li>
@@ -209,6 +212,15 @@ export default function App() {
             border-bottom: 2px solid rgba(255, 255, 255, 0.3);
             padding-bottom: 12px;
             line-height: 1.4;
+          }
+
+          /* Línea divisoria pequeña entre planes */
+          .plan-divider {
+            width: 180px;
+            margin: 1.5rem auto;
+            border: 0;
+            border-top: 2px solid rgba(255, 255, 255, 0.4);
+            opacity: 1;
           }
 
           @media (max-width: 576px) {
