@@ -125,19 +125,21 @@ export default function App() {
               <h3 className="fs-4 fw-semibold mb-3 mt-2 w-100 text-center px-2 block-title-header">
                 Inscripción en la Escuela
               </h3>
-              <h2 className="fs-4 fw-semibold mb-4 w-100 text-center px-2 block-title-header">
-                PLANES DE ENTRENAMIENTO REGULAR
-              </h2>
-              <p className="fst-italic mb-3">(Modalidad: Suscripción Mensual)</p>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan de Entrada — $10.000</p>
-              <ul className="text-start list-unstyled mb-3">
+              <ul className="text-start list-unstyled mb-4">
                 <li>• Acceso a 1 clase por mes</li>
                 <li>• Acceso a plataforma educativa</li>
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Clases extra a $5.000 c/u</li>
               </ul>
-              <hr className="plan-divider" />
+
+              <div className="title-with-border-top">
+                <h2 className="fs-4 fw-semibold mb-4 mt-4 w-100 text-center px-2 block-title-header">
+                  PLANES DE ENTRENAMIENTO REGULAR
+                </h2>
+              </div>
+              <p className="fst-italic mb-3">(Modalidad: Suscripción Mensual)</p>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Básico — $25.000</p>
               <ul className="text-start list-unstyled mb-3">
@@ -232,6 +234,12 @@ export default function App() {
             border: 0;
             border-top: 2px solid rgba(255, 255, 255, 0.4);
             opacity: 1;
+          }
+
+          /* Título con línea arriba y abajo */
+          .title-with-border-top h2 {
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+            padding-top: 20px;
           }
 
           @media (max-width: 576px) {
