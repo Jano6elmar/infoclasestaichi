@@ -183,7 +183,6 @@ function MainContent({ selectedSection, onBack }) {
   <div className="fst-italic mt-3 px-2 text-center">
     <p className="mb-1">NOTA, al tomar esta actividad cuentas con:</p>
     <p className="mb-1">• Derecho a participar de una clase de Tai Chi en el mes que tomas la actividad</p>
-    <p className="mb-0">• (Puedes participar de clases de Tai Chi extras en el mes del recorrido por $3.000 cada una)</p>
   </div>
 
   <p className="mt-4 fs-5"><strong>Valor mensual de la Actividad:</strong> $15.000</p>
