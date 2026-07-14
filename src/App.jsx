@@ -163,38 +163,32 @@ function MainContent({ selectedSection, onBack }) {
               </div>
 
               <div className="mt-4 pt-2 border-top border-light">
-                <h4 className="fs-5 fw-semibold">Grupo de Estudios</h4>
-                <ul><br />
-                <li>Esta actividad está pensada para acompañar a quienes quieran recorrer el Camino del autoconocerse
-                usando las herramientas que comparte el instructor.</li><br />
-                <li> Desde la Magia Metódica, abordamos el estudio del Tao, Medicina China y Tai Chi para
-                  cuidar nuestra salud y bienestar.
-                </li><br />
-                <li> La actividad principal consiste en una reunión mensual de 2 horas en la que se entregan al participante elementos teórico/prácticos de uso cotidiano.</li> 
+  <h4 className="fs-5 fw-semibold mb-3">Grupo de Estudios</h4>
+  
+  {/* Cambiamos a una lista con alineación izquierda ordenada y buen margen */}
+  <ul className="text-start list-unstyled px-2 mx-auto" style={{ maxWidth: '560px', lineHeight: '1.6em' }}>
+    <li className="mb-3">
+      🔹 Esta actividad está pensada para acompañar a quienes quieran recorrer el Camino del autoconocerse usando las herramientas que comparte el instructor.
+    </li>
+    <li className="mb-3">
+      🔹 Desde la Magia Metódica, abordamos el estudio del Tao, Medicina China y Tai Chi. Nos enfocamos en crear hábitos que fortalecen nuestra salud y amplian nuestra conciencia.
+    </li>
+    <li className="mb-3">
+      🔹 La actividad principal consiste en una reunión mensual de 2 horas en la que se entregan al participante elementos teórico/prácticos de uso cotidiano.
+    </li> 
+    <li className="mb-3">
+      🔹 Para esta actividad se da acceso a un grupo de Telegram donde se comparten materiales de estudio (teóricos/prácticos), se cuenta con espacio para realizar consultas y abrir debates sobre los temas abordados.
+    </li>
+  </ul>
 
+  <div className="fst-italic mt-3 px-2 text-center">
+    <p className="mb-1">NOTA, al tomar esta actividad cuentas con:</p>
+    <p className="mb-1">• Derecho a participar de una clase de Tai Chi en el mes que tomas la actividad</p>
+    <p className="mb-0">• (Puedes participar de clases de Tai Chi extras en el mes del recorrido por $3.000 cada una)</p>
+  </div>
 
-                </ul>
-
-                <p><br />• Para esta actividad se da acceso a un grupo de Telegram donde
-                se comparten materiales de estudio(teóricos/practicos), se cuenta con espacio para realizar consultas y abrir debates sobre los temas abordados.
-                <br /><br />
-                </p>
-
-                <p className="fst-italic">NOTA: al tomar esta actividad cuentas con:  
-                <p><br />• Derecho a participar de una clase de Tai Chi en el mes que tomas la actividad</p>
-                <p>• (Puedes participar de clases de Tai Chi extras en el mes del recorrido por $3.000 cada una)</p>
-                
-
-
-                </p>
-
-
-
-                <p><strong> Valor mensual de la Actividad:</strong> $15.000</p>
-
-
-
-              </div>
+  <p className="mt-4 fs-5"><strong>Valor mensual de la Actividad:</strong> $15.000</p>
+</div>
             </div>
           </div>
         </div>
@@ -224,6 +218,8 @@ function MainContent({ selectedSection, onBack }) {
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Básico — $25.000</p>
               <ul className="text-start list-unstyled mb-3">
+              <li>• Puedes acceder a este plan en formato on-line, semipresencial o presencial</li>
+
                 <li>• Acceso hasta 4 clases mensuales</li>
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Acceso a transmisiones online de las clases y sus grabaciones</li>
@@ -234,8 +230,8 @@ function MainContent({ selectedSection, onBack }) {
               <hr className="plan-divider" />
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Completo — $40.000</p>
-              <ul className="text-start list-unstyled">
-                <li>• Acceso hasta 12 clases mensuales</li>
+              <ul className="text-start list-unstyled px-2 mx-auto" style={{maxWidth: '560px', lineHeight: '1.6em'}} >
+                <li>• Acceso hasta 12 clases presencialesmensuales</li>
                 <li>• Acceso a la comunidad en Telegram</li>
                 <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso a transmisiones online de las clases y sus grabaciones</li>
