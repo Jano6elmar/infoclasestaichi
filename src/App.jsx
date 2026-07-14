@@ -255,17 +255,17 @@ function MainContent({ selectedSection, onBack }) {
                 Entrevista de entrenamiento y orientación individual
               </h2>
               <p><strong>Valor por entrevista (para inscritos en la escuela):</strong> $10.000</p>
-              <p><strong>Valor independiente:</strong> $15.000</p>
+              <p><strong>Valor independiente:</strong> $18.000</p>
               <p><strong>Duración de la entrevista:</strong> 1 hora</p>
-              <p><strong>Acceso adicional:</strong> incluye 1 clase de Tai Chi en el mes que tome la entrevista.<br />Puede asistir a clases extras por $2.500 cada una.</p>
+              <p><strong>Acceso adicional:</strong> incluye 1 clase de Tai Chi en el mes que tome la entrevista.<br />Puede asistir a clases extras por $3.000 cada una.</p>
 
               <hr className="plan-divider" />
               <h5 className="mt-4 mb-2">Objetivos de la entrevista</h5>
               <ul className="text-start list-unstyled mb-3">
-                <li>• Definir Resultado, Deseo o Meta respecto a su entrenamiento o salud</li>
+                <li>• Ayudar a definir Resultado, Deseo o Meta respecto a su entrenamiento o salud</li>
                 <li>• Transmitir herramientas filosóficas, teóricas y prácticas</li>
                 <li>• Definir rutinas de entrenamiento</li>
-                <li>• Detectar límites y generar propuesta para atravesarlos </li>
+                <li>• Detectar límites mentales mediante Escucha Analítica y generar propuesta para atravesarlos </li>
               </ul>
 
               <hr className="plan-divider" />
