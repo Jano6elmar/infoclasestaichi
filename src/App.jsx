@@ -7,8 +7,8 @@ const logoPath = `${import.meta.env.BASE_URL}logowudang.png`;
 const logoNeidanPath = `${import.meta.env.BASE_URL}LOGO%20ESCUELA%20NEIDAN%20%20500px.png`;
 
 const MENU_SECTIONS = [
-  { id: 'clases', title: 'Clases, Comunidad y Actividades' },
-  { id: 'inscripcion', title: 'Inscripción en la Escuela' },
+  { id: 'clases', title: 'Grupo de Estudios, Clases Unitarias y Comunidad' },
+  { id: 'inscripcion', title: 'Suscripción y Planes de Entrenamiento' },
   { id: 'entrevista', title: 'Entrevista de entrenamiento y orientación individual' },
 ];
 
@@ -99,7 +99,7 @@ function PageHeader() {
         </div>
       </div>
       <br />
-      <h3 className="sede-title">Sede Concepción</h3>
+      <h3 className="sede-title">Actividades <br />Sede Concepción</h3>
     </div>
   );
 }
@@ -131,7 +131,7 @@ function MainContent({ selectedSection, onBack }) {
     <>
       <div className="text-center mb-4 px-3">
         <button type="button" className="back-menu-btn" onClick={onBack}>
-          ← Volver al menú
+          ← Volver al menú principal
         </button>
       </div>
 
@@ -141,7 +141,7 @@ function MainContent({ selectedSection, onBack }) {
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
               <h2 className="fs-3 fw-semibold mb-3 mt-2 w-100 text-center px-2 block-title-header">
-                Clases, Comunidad y Actividades
+                Clases Unitarias, Comunidad y Grupo de Estudios
               </h2>
 
               <h4 className="fs-5 fw-semibold mb-2">Clases Unitarias</h4>
@@ -205,7 +205,7 @@ function MainContent({ selectedSection, onBack }) {
           <div className="card h-100 border border-white rounded-3" style={{ backgroundColor: '#002D72', color: 'white' }}>
             <div className="card-body">
               <h3 className="fs-4 fw-semibold mb-3 mt-2 w-100 text-center px-2 block-title-header">
-                Inscripción en la Escuela
+                SUSCRIPCIÓN Y PLANES DE ENTRENAMIENTO
               </h3>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan de aprendizaje individual — $15.000</p>
@@ -217,11 +217,10 @@ function MainContent({ selectedSection, onBack }) {
               </ul>
 
               <div className="title-with-border-top">
-                <h2 className="fs-4 fw-semibold mb-4 mt-4 w-100 text-center px-2 block-title-header">
-                  PLANES DE ENTRENAMIENTO REGULAR
+                <h2 className="fs-4 fw-semibold mb-4 mt-4 w-100 text-center px-2 ">
+                  
                 </h2>
               </div>
-              <p className="fst-italic mb-3">(Modalidad: Suscripción Mensual)</p>
 
               <p className="fs-5 fw-semibold mb-2">➡️ Plan Básico — $25.000</p>
               <ul className="text-start list-unstyled mb-3">
