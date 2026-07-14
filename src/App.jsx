@@ -149,12 +149,11 @@ function MainContent({ selectedSection, onBack }) {
               <p><strong>➡️ Formativa (Grupal):</strong> 1.5 Horas (en Horarios de entrenamiento Regular)<br/>Valor: $6.000</p>
               <p className="fs-5 fw-semibold mb-2 mt-3 text-center">Kung Fu</p> 
               <p><strong>➡️ Formativa (Grupal):</strong> 1 Hora (en Horarios de entrenamiento Regular)<br/>Valor: $6.000</p>
-              <p><strong>➡️ Recreativa (Grupal):</strong> 1 hora (sujetas a invitación)<br/>Valor: $3.000</p>
               <p><strong>➡️ Clase Formativa o Entrenamiento Personal:</strong> 1 hora (horario a convenir)<br/>Valor: $10.000</p>
 
               <div className="mt-1 pt-4 pb-1 border-top border-light">
                 <h4 className="fs-5 fw-semibold">Unirse a la Comunidad de Aprendizaje</h4>
-                <p>$$$ : Aporte consciente mensual </p>
+                <p>$: Aporte consciente mensual </p>
                 <ul className="text-start list-unstyled">
                   <li>• Acceso a la comunidad en Telegram</li>
                   <li>• Acceso a tutoriales</li>
@@ -207,7 +206,7 @@ function MainContent({ selectedSection, onBack }) {
                 <li>• Acceso a 1 clase presencial (para correciones y vivenciar la práctica)</li>
                 <li>• Acceso a plataforma de estudios (Materiales de estudio y video tutoriales)  </li>
                 <li>• Acceso a la comunidad en Telegram</li>
-                <li>• Clases extra a $5.000 c/u</li>
+                
               </ul>
 
               <div className="title-with-border-top">
@@ -225,7 +224,7 @@ function MainContent({ selectedSection, onBack }) {
                 <li>• Acceso a transmisiones online de las clases y sus grabaciones</li>
                 <li>• Acceso a actividades recreativas en entornos Naturales</li>
                 <li>• Acceso al Grupo de Estudio y Formación por Niveles (+ $5.000)</li>
-                <li>• Clases extra a $3.000 c/u</li>
+                
               </ul>
               <hr className="plan-divider" />
 
